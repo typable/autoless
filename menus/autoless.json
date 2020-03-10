@@ -1,0 +1,26 @@
+{
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Autoless",
+					"submenu": [
+						{
+							"label": "Compile",
+							"command": "autoless:compile"
+						},
+						{
+							"label": "New Config",
+							"command": "autoless:new-config"
+						},
+						{
+							"label": "Open Config",
+							"command": "autoless:open-config"
+						}
+					]
+				}
+			]
+		}
+	]
+}
