@@ -1,10 +1,10 @@
 {
 	"name": "Autoless",
-	"main": "./lib/autoless",
+	"main": "./lib/index",
 	"version": "0.0.0",
 	"description": "Less Compiler Hook",
 	"keywords": [],
-	"repository": "https://github.com/atom/autoless",
+	"repository": "https://github.com/typable/autoless",
 	"license": "MIT",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
