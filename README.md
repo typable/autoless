@@ -31,7 +31,7 @@ After restarting Atom, the plugin should be visible under `Packages`.
 ### Configurations
 
 For every project a new *.lessconfig* is required. It's located in the root path
-of your project. To create it automatically go to `Packages > Autoless > New Config`.
+of your project.<br>To create it automatically go to `Packages > Autoless > New Config`.
 
 |Property|Description|
 |---|---|
