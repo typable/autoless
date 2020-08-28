@@ -1,7 +1,7 @@
 {
 	"name": "Autoless",
 	"main": "./lib/index",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Less Compiler Hook",
 	"keywords": [],
 	"repository": "https://github.com/typable/autoless",
