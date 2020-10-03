@@ -1,8 +1,8 @@
 {
-	"name": "Autoless",
+	"name": "autoless",
 	"main": "./lib/index",
-	"version": "0.1.0",
-	"description": "Less Compiler Hook",
+	"version": "0.2.0",
+	"description": "Automate your LESS compilation workflow",
 	"keywords": [],
 	"repository": "https://github.com/typable/autoless",
 	"license": "MIT",
@@ -10,6 +10,8 @@
 		"atom": ">=1.0.0 <2.0.0"
 	},
 	"dependencies": {
+		"less": "^3.12.2",
+		"less-plugin-clean-css": "^1.5.1",
 		"request": "^2.73.0"
 	}
 }

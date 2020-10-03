@@ -8,7 +8,8 @@
 					"submenu": [
 						{
 							"label": "Compile",
-							"command": "autoless:compile"
+							"command": "autoless:compile",
+							"accelerator": "Ctrl + S"
 						},
 						{
 							"label": "New Config",
