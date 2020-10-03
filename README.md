@@ -3,7 +3,9 @@ Automate your LESS compilation workflow
 <br>
 <br>
 
-Autoless is *Atom Package* which provides a clean looking interface for terminal based LESS compilations.
+Autoless is a *Atom Package* which provides a clean looking interface for terminal based LESS compilations.
+<br>
+<br>
 
 ### Setup
 
