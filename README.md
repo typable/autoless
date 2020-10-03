@@ -1,51 +1,49 @@
-# Autoless
-Less Compiler Atom Plugin
+# autoless
+Automate your LESS compilation workflow
 <br>
 <br>
+
+Autoless is *Atom Package* which provides a clean looking interface for terminal based LESS compilations.
 
 ### Setup
 
-Clone the latest version.
+For every project a new *.lessconfig* file is required. It's located in the root path
+of your project.<br>To create it automatically go to `Packages > Autoless > New Config`.
 
-```bash
-git clone https://github.com/typable/autoless.git
-```
+**Tip:** Predefined config values can be changed in the settings.
+<br>
+<br>
 
-The following node modules are required in order to compile less.
+**Node Modules**
 
-```bash
-npm i -g less
-npm i -g less-plugin-clean-css
-```
-
-Now we need to tell Atom where to find the plugin.
-
-```bash
-apm link <autoless-path>
-```
-
-After restarting Atom, the plugin should be visible under `Packages`.
+The following node modules are included:
+- less
+- less-plugin-clean-css
 <br>
 <br>
 
 ### Configurations
 
-For every project a new *.lessconfig* is required. It's located in the root path
-of your project.<br>To create it automatically go to `Packages > Autoless > New Config`.
+A quick overview of the in the *.lessconfig* file included properties:
 
-|Property|Description|
-|---|---|
-|`SOURCE_FILE`|The location of your *style.less* file|
-|`TARGET_FILE`|The location of your *style.css* file|
-|`AUTO_COMPILE`|If true, it compiles on save *(Ctrl + S)*|
+|Property|Description|Default|
+|---|---|---|
+|`MINIFY`|If true, the *style.css* gets minified|`false`|
+|`AUTO_COMPILE`|If true, it compiles on save *(Ctrl + S)*|`true`|
+|`SOURCE_FILE`|The location of your *style.less* file|`less/style.less`|
+|`TARGET_FILE`|The location of your *style.css* file|`css/style.css`|
+
 <br>
 
-**Notice: For all actions, at least one *.less* editor tab must be open!**
+### Screenshots
+<br>
+
+![Sucess Notification](./asset/success.png)
+
+Success Notification
 <br>
 <br>
 
-### Settings
+![Error Notification](./asset/error.png)
 
-|Property|Description|
-|---|---|
-|`minify`|If true, **all projects** get compiled minified|
+Error Notification with formatted error log and "Jump to line" button
